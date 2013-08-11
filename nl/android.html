@@ -68,61 +68,58 @@
 
 		<section class="container">
 			
-			<h2>Electrum para Android</h2>
+			<h2>Electrum voor Android</h2>
 			
-			<p>Esta página explica como instalar Electrum en dispositivos Android.<br /></p> 
+			<p>Deze pagina legt uit hoe Electrum te installeren op Android apparaten.<br /></p> 
 			
-			<p>Nótese que Electrum no se distribuye como un paquete binario, pero como el código fuente de python; esto da a los usuarios la posibilidad de ver lo que el código está haciendo, que no contiene código malicioso. La desventaja es que la instalación es un poco más complicada que descargar una aplicación de la tienda Android, pero sigue siendo muy simple.<br /></p>
+			<p>Wees bewust dat Electrum niet wordt gedistributeerd wordt als binair pakket, maar als python broncode; dit betekend dat de installatie lichtjes moeilijker is dan een app downloaden van de Google play store. <br /></p>
 			
-			<p>Es posible imprimir esta página en papel e instalar todo desde los códigos QR</p>
+			<p>Het is mogelijk om alles te installeren via QR codes.</p>
 			
-			<p>Si encuentras problemas, puedes encontrar ayuda en <a href="http://maketecheasier.com/install-applications-without-the-market/2011/01/28">
-			este enlace</a>.</p>
+			<p>Als je moeilijkheden ondervindt kan he help vinden <a href="http://maketecheasier.com/install-applications-without-the-market/2011/01/28">
+			op deze pagina</a>.</p>
 			
 			
-			<h3>1. Descarga e instala Google Scripting Layer para Android</h3>
+			<h3>1. Download en installeer Google Scripting Layer voor Android</h3>
 			
-			<p>Puedes conseguirlo <a href="http://code.google.com/p/android-scripting/wiki/Unofficial">aquí</a>, o escaneando el siguiente código QR:
+			<p>Je kan het <a href="http://code.google.com/p/android-scripting/wiki/Unofficial">hier</a> vinden, of je kan volgende QR code scannen:
 			<br /><br />
 			<img src="http://chart.apis.google.com/chart?cht=qr&chs=150x150&chld=L&choe=UTF-8&chl=http%3A%2F%2Fwww.mithril.com.au%2Fandroid%2Fsl4a_r5x.apk"
 			/></p>
 			
 			
-			<h3>2. Descarga e instala Python para Android</h3>
+			<h3>2. Download en installeer Python voor  Android</h3>
 			
-			<p>Puedes conseguirlo <a href="http://code.google.com/p/python-for-android/downloads/detail?name=PythonForAndroid_r5.apk">aquí</a>, o escaneando el siguiente código QR:
+			<p>Je kan dit <a href="http://code.google.com/p/python-for-android/downloads/detail?name=PythonForAndroid_r5.apk">hier</a> doen, of je kan volgende QR code scannen:
 			<br /><br />
 			<img src="http://chart.apis.google.com/chart?cht=qr&chs=200x200&chld=L&choe=UTF-8&chl=http%3A%2F%2Fpython-for-android.googlecode.com%2Ffiles%2FPythonForAndroid_r5.apk"/>
 			<br /><br />
-			Una vez hayas instalado la apk, inicia la aplicación Python para Android y haz click en 'install'</p>
+			Eens je de apk geinstalleerd hebt start je de Python voor Android app en klik je op "installeer".</p>
 			
-			<h3>3. Descarga el script de instalación de Electrum</h3>
+			<h3>3. Download het Electrum installeer scrypt</h3>
 			
-			<p>Descarga <a href="e4a_install.py">e4a_install.py</a> e instálalo en la carpeta sl4a/scripts.
-			Puedes hacerlo manualmente, o desde el código QR, de esta forma:</p>
 			<pre>
-1. Inicia SL4A.
-2. Presiona el botón Menú.
-3. Presiona Add.
-4. Presiona Scan Barcode.
-5. Escanea el siguiente código QR:
+1. Start SL4A.
+2. Klik op menu.
+3. Klik op Add.
+4. Klik op Scan Barcode.
+5. Scan volgende QR-code:
 </pre>
 			<img src="http://chart.apis.google.com/chart?cht=qr&chs=300x300&chld=L&choe=UTF-8&chl=e4a_install.py%0Aimport+urllib%2C+zipfile%2C+os%0Ap%3D%22http%3A%2F%2Felectrum.bitcoin.cz%2Fdownload%2Fe4a-173zip%22%0An%3D%22e4a-1.7.3%22%0Anz%3Dn%2B%22.zip%22%0Aurllib.urlretrieve(p%2Cnz)%0Azipfile.ZipFile(nz).extractall()%0Aos.rename(n%2C'scripts%2F'%2Bn)" />
-			<pre>
-Esto instalará el script llamado e4a_install.py
+			<pre>Dit installeert het script genaamd e4a_install.py
 			</pre>
 			
-			<h3>4. Descarga e instala Electrum</h3>
+			<h3>4. Download en installeer Electrum</h3>
 			<pre>
-1. Presiona e4a_install.py: se descargará e instalará una carpeta llamada "e4a-1.7.3"
-2. Para iniciar Electrum, entra en la carpeta "e4a-1.7.3" y presiona 'e4a.py'</pre>
+1. Klik op e4a_install.py: het download en installeert de folder "e4a-1.7.3"
+2. Om Electrum op te starten ge je naar de folder "e4a-1.7.3" en klik je op 'e4a.py'</pre>
 			
-			<h3>5. Crea un acceso directo en tu pantalla de inicio</h3>
+			<h3>5. Maak een snelkoppeling op je beginscherm</h3>
 						
 			<pre>
-1. Ve a tu pantalla de inicio, haz click en el botñun menú y selecciona "Añadir a Inicio".
-2. En el menú que aparece, elige "Acceso directo", luego "Scripts"
-3. Ve hasta el script ea4.py</pre>	
+1. Ga naar je beginscherm, klik op menu en selecteer "Aan beginscherm toevoegen".
+2. In het menu dat verschijn kies je "Directe toegang", dan "Scripts".
+3. Ga naar het sript ea4.py</pre>	
 
 		</section><!-- /container -->
 	</body>
